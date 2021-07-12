@@ -24,11 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4738a27-8769-4f84-8ba2-8742deb2b0c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libraries/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mailer/smart.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/mailer/smart.php" afterDir="false" />
-    </list>
+    <list default="true" id="d4738a27-8769-4f84-8ba2-8742deb2b0c7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +74,7 @@
       <workItem from="1625573585260" duration="13801000" />
       <workItem from="1625762543904" duration="15914000" />
       <workItem from="1625926355246" duration="19280000" />
-      <workItem from="1626048386260" duration="1251000" />
+      <workItem from="1626048386260" duration="1412000" />
     </task>
     <servers />
   </component>
