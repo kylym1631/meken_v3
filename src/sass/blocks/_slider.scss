@@ -1,0 +1,132 @@
+.slider{
+    position: relative;
+    padding-top: 50px;
+    .slick-dotted{
+        margin-bottom: 0;
+    }
+    &__social__wrapper{
+        position: absolute;
+        bottom: 12%;
+        left: 40%;
+        display: flex;
+    
+    }
+    &__social__item{
+        margin: 0 20px;
+    }
+    &__item{
+        ul{
+            bottom: 20px;
+            li{
+                button{
+                    &:before{
+                        font-family: 'slick';
+                        font-size: 15px;
+                        line-height: 20px;
+                        color:rgba(255, 255, 255, 0.829);
+                    }
+                }   
+            }
+        }
+    }
+    &__img{
+        &__insta{
+            margin-left: 5%;
+            height: 100%;
+        }
+        &__sale{
+            margin-top: 10%;
+            height: 70%;
+
+        }
+    }
+    &__subtitle{
+        font-size: 60px;
+        font-weight: bold;
+        text-shadow: 5px 2px 5px black;
+        a{
+            color: #fff;
+        }
+    }
+    &__arrow{
+        display: block;
+        position: absolute;
+        top: 50%;
+        color: #fff;
+        font-size: 60px;
+        cursor: pointer;
+        transform: translate(0, -50%);
+        opacity: .6;
+        &:hover{
+            opacity: .9;
+        }
+    }
+    &__wrapper{
+        position: relative;
+        height: 540px;
+        width: 100%;
+
+        &_1{
+            img{
+                width: 100%;
+            }
+        }
+        &_2{
+            img{
+                width: 100%;
+            }
+        }
+        &_3{
+            img{
+                width: 100%;
+            }
+        }
+        &_4{
+           
+            background: linear-gradient(to right, #fc7265, #f137b6);  
+        }
+        &_sale{
+            background: linear-gradient(to right, #686363, #b897ad);
+        }
+    }
+    &__descr{
+        position: absolute;
+        top: 70%;
+        margin-left: 50%;
+        color: #fff;
+        font-size: 50px;
+        font-weight: bold;
+        transform: translate(-50%, 0);
+        text-shadow: 5px 8px 10px black;
+        width: 60%;
+        &__insta{
+            top: 15%;
+            margin-left: 65%;
+        }
+        &__sale{
+            font-size: 45px;
+            top: 80px;
+            left: 20%;
+            span{
+                text-decoration:line-through;
+            }
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            &:hover{
+                transition: 1s all;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+.slick__next{
+    left: 95%;
+}
+.slick__prev{
+    right: 95%;
+}
+

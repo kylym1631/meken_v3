@@ -1,0 +1,107 @@
+.address{
+    min-height: 400px;
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    &__city__content__wrapper{
+        display: flex;
+        padding: 20px 0 20px 20px;
+    }
+    &__city__bg{
+        background-color: #f1ecec;
+        border-radius: 10px;
+    }
+    
+    &__city__details{
+        font-size: 20px;
+        &__person{
+            font-size:25px ;
+            &__icon{
+                font-size: 35px;
+            }
+        }
+        &__tel{
+            padding-left: 50px;
+        }
+    }
+    &__city__name{
+        width:100%;
+        font-size: 26px;
+        margin: 20px 5px 0 5px;
+        padding: 10px 10px 0 10px;
+        cursor: pointer;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color:#c36ff3;
+        color: rgb(248, 239, 239);
+        border: 2px solid #b1acac;
+        &_active{
+            background-color:#f1ecec;
+            color: black;
+            border-bottom: none;
+        }
+    }
+    &__city__location{
+        font-size: 24px;
+        width: 100%;
+        &__map{
+            width: 700px;
+        }
+    }
+    &__city__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__social{
+        &__title{
+            font-size: 26px;
+            text-decoration: underline;
+            text-decoration-color: #695d6b4f;
+        }
+    }
+
+    &__graphic{
+        font-size: 20px;
+        margin-top: 15px;
+        color: rgb(97, 93, 93);
+        
+    }
+    &__info{
+        .hide {
+            display: none;
+        }
+        .show {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    }
+    
+    
+}
+.faded {
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+  }
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+}

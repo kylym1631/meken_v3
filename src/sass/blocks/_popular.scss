@@ -1,0 +1,90 @@
+.popular{
+    padding: 20px 0;
+    min-height: 1030px;
+    background: linear-gradient(45deg, #8feee1, #d7baf1df);
+    &__icon{
+        display: flex;
+        justify-content: center;
+        &__item{
+            margin-top: 20px;
+            text-align: center;
+            margin-right: 30px;            
+            &__img{
+                width: 90px;
+            }
+            &__descr{
+                font-size: 22px;
+                font-weight: 700;
+                color: rgb(112, 112, 243);
+            }
+        }
+    }
+    &__wrapper{
+        box-shadow: 5px 4px 8px black;
+        position: relative;
+        border-radius: 5px;
+        min-height: 180px;
+        width:100%;
+        margin-top: 18px;
+        border: solid 1px #fff;
+        transition: 0.3s all;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+        &_1{
+            background: url(../../../src/img/1moscow.jpg) center (center / cover) no-repeat;
+        }
+        &_2{
+            background: url(../img/2kreml.jpg) center (center / cover) no-repeat;        }
+        &_3{
+            background: url(../img/3bishkek.jpg) center (center / cover) no-repeat;
+        }
+        &_4{
+            background: url(../img/4ekaterinburg.PNG) center (center / cover) no-repeat;
+        }
+        &_5{
+            background: url(../img/5sulaiman-too.jpg) center (center / cover) no-repeat;
+        }
+        &_6{
+            background: url(../img/6ekaterinburg.jpg) center (center / cover) no-repeat;
+        }
+        &_7{
+            background: url(../img/7burana.jpg) center (center / cover) no-repeat;
+        }
+        &_8{
+            background: url(../img/8piter.webp) center (center / cover) no-repeat;
+        }
+        &_9{
+            background: url(../img/9piter.jpg) center (center / cover) no-repeat;
+        }
+        &_10{
+            background: url(../img/10novosibirsk.jpg) center (center / cover) no-repeat;
+        }
+        &_11{
+            background: url(../img/11ala-archa.jpg) center (center / cover) no-repeat;
+        }
+        &_12{
+            background: url(../img/12novosibirsk.jpg) center (center / cover) no-repeat;
+        }
+    }
+    &__img__transparent{
+        border-radius: 0 0 5px 5px;
+        top: 108px;
+        height: 70px;
+        width: 100%;
+        position: absolute;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 0%, rgba(5,4,4,0.5914740896358543) 54%, rgba(7,6,6,0.3561799719887955) 77%, rgba(7,6,6,0.19371498599439774) 85%, rgba(8,7,7,0.03405112044817926) 94%, rgba(8,7,7,0) 98%);
+        &__descr{
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 20px;
+            margin-top: 25px;
+            text-shadow: 10px 5px 10px black;
+            
+        }
+    }
+}   

@@ -1,0 +1,19 @@
+.reviews{
+    min-height: 400px;
+    &__slider{
+        &__img{
+            height: 300px;
+            margin: 10px 50px;
+        }
+        &__video{
+            margin:10px 50px;
+        }
+    }   button{
+            z-index: 2;
+            &::before{
+                color: #602670a6;
+                font-size: 50px;
+                
+            }
+        }
+}

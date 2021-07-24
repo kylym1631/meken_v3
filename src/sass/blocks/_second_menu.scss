@@ -1,0 +1,50 @@
+.second__menu{
+    position: fixed;
+    top: -500px;
+    width: 100%;
+    height: 320px;
+    transition: 0.7s all  ;
+    z-index: 4;
+    text-align: center;
+    &__item{
+        vertical-align:middle;
+        text-align: center;
+        display: inline-block;
+        width: 200px;
+        height: 80px;
+        margin: 20px 5px 0 5px;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            span{
+                color: rgb(247, 247, 128);
+                transition: 0.3s all  ;
+                text-decoration: none;
+            }
+            h2{
+                color: #f7a63c;
+                transition: 0.3s all  ;
+            }
+        }
+        span{
+            font-size: 40px;
+            color: #fff;
+            transition: 1s all  ;
+            text-decoration: none;
+         
+        }
+        
+        &_descr{
+            color: #F2B15D;
+            font-size: 20px;
+        }
+    }
+    &_active{
+        position: fixed;
+        padding: 20px 0;
+        transition: 0.7s all  ;
+        top: 15px;
+        height: 320px;
+        background-color: $main-color;
+    }
+}

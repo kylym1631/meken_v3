@@ -1,0 +1,71 @@
+.slider__shop{
+    padding-top: 50px;
+    .slick-dotted{
+        margin-bottom: 0;
+    }
+    &__item{
+        ul{
+            position: absolute;
+            bottom: 20px;
+            li{
+                button{
+                    &:before{
+                        font-family: 'slick';
+                        font-size: 20px;
+                        line-height: 20px;
+                        color:rgba(255, 255, 255, 0.829);
+                    }
+                }   
+            }
+        }
+    }
+    &__img{
+        height: 600px;
+        &__insta{
+            margin-left: 5%;
+            height: 100%;
+        }
+    }
+    &__bg{
+       background: linear-gradient(to right, #fc7265, #f137b6); 
+
+    }
+    &__subtitle{
+        font-size: 60px;
+        font-weight: bold;
+        text-shadow: 5px 2px 5px black;
+        a{
+            color: #fff;
+        }
+    }
+    &__wrapper{
+        position: relative;
+        height: 540px;
+    }
+    &__descr{
+        position: absolute;
+        top: 70%;
+        margin-left: 50%;
+        color: #fff;
+        font-size: 50px;
+        font-weight: bold;
+        transform: translate(-50%, 0);
+        text-shadow: 5px 8px 10px  black;
+        width: 60%;
+        &__insta{
+            top: 15%;
+            margin-left: 65%;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            span{
+                font-size: 30px;
+            }
+            &:hover{
+                transition: 1s all;
+                text-decoration: underline;
+            }
+        }
+    }
+}

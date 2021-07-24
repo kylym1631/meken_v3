@@ -1,0 +1,36 @@
+.reason{
+    min-height: 450px;
+    background: #6898f1;
+    padding: 20px 0;
+    &__item{
+        text-align: center;
+        margin-top: 23px;
+        &__round{
+            box-shadow: 6px 5px 8px black;
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            background-color: #34ebd0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            div{
+                font-size: 60px;
+            }
+            .icon-credit-card-alt{
+                font-size: 50px;
+            }
+        }
+        &__descr{
+            font-size: 21px;
+            font-weight: normal;
+            color: white;
+            width: 250px;
+            margin: 0 auto;
+            text-shadow: 1px 3px 10px black; 
+        }
+
+    }
+    
+}

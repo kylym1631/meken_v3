@@ -1,0 +1,39 @@
+@import 'base/variables';
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src:url("../Roboto/Roboto-Light.ttf");
+    src: url("../Roboto/Roboto-Regular.ttf");
+    src: url("../Roboto/Roboto-Bold.ttf");
+    src: url("../Roboto/Roboto-Black.ttf");
+}
+@import 'blocks/header';
+@import 'blocks/second_menu';
+@import 'blocks/slider';
+@import 'blocks/popular';
+@import 'blocks/titles';
+@import 'blocks/reason';
+@import 'blocks/footer';
+@import 'blocks/buttons';
+@import 'blocks/about';
+@import 'blocks/address';
+@import 'blocks/reviews';
+@import 'blocks/help_item';
+@import 'blocks/overlay';
+@import 'blocks/shop_slider';
+@import 'blocks/service';
+@import 'blocks/goods';
+@import 'blocks/currency';
+@import 'blocks/info_header';
+@import 'blocks/info_news';
+@import 'blocks/avia';
+@import 'blocks/airports';
+@import 'blocks/embassies';
+@import 'blocks/us';
+@import "blocks/ticket";
+@import 'blocks/check';
+@import 'blocks/media';
+

@@ -1,0 +1,89 @@
+nav{
+    top: 0;
+    position: fixed;
+    min-height: 50px;
+    background-color: $main-color;
+    z-index: 50;
+    width: 100%;
+    transition: top 0.3s;
+    display: block;
+    .menu{
+        padding: 5px 20px 0 20px;
+        display: flex;
+        justify-content: space-between;
+        &__left{
+            font-size: 32px;
+            color: #fff;
+            font-weight: 700;
+            line-height: 32px;
+            z-index: 10;
+            a{
+                color: #fff;
+            }
+        }
+        &__right{
+            &__upper{
+                list-style-type: none;
+                display: flex;
+                opacity: 1;
+                transition: 1.4s all;
+                &_inactive{
+                    transition: 0.3s all;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+            &__item{
+                display: flex;
+                &__link{
+                padding: 0 9px;
+                font-size: 20px;
+                font-weight: 500;
+                color: #fff;
+                a{
+                    display: block;
+                    color: #fff;
+                }
+                }
+                .burger{
+                    cursor: pointer;
+                    display: block;
+                    right: 10px;
+                    margin-top: 9px;
+                    width: 30px;
+                    height: 20px;
+                    z-index: 10;
+                    span {
+                        display: block ;
+                        height: 4px;
+                        width: 100%;
+                        background-color: #fff ;
+                        margin-bottom: 3px;
+                        transition: 0.5s all; 
+                    }
+                    &_active {
+                        span{
+                            margin-bottom: -3px ;
+                            &:nth-child(1){
+                                transform: translateY(3px) rotate(-45deg);
+                            }
+                            &:nth-child(2){
+                                display: none;
+                            }
+                            &:nth-child(3){
+                                transform: translateY(3px) rotate(45deg);
+                            }
+                           }
+                        }  
+                    .xs-hidden{
+                        visibility: hidden;
+                    } 
+                    .xs-visible {
+                        visibility: visible;
+                    }       
+                }
+            }
+        }
+    }
+   
+}

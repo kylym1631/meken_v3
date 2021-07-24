@@ -1,0 +1,1068 @@
+@media (max-width:1350px){
+    a{
+        outline: none;
+    }
+    html, body {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    // .slider{
+    //     &__wrapper{
+    //         height: 390px;
+    //     }
+    // }
+}
+
+@media (max-width: 1200px){
+
+    .second__menu{
+        vertical-align:middle;
+        &__item{
+            width: 150px;
+            &_descr{
+                font-size: 18px;
+            }
+        }
+        &_active{
+            top: 30px;
+        }
+    }
+    .slider{
+        &__shop{
+            &__descr{
+                line-height: 1.2em;
+                top: 57%;
+                font-size: 40px;
+                &__insta{
+                    top: 50px;
+                    margin-left: 70%;
+                }
+               
+            }
+            &__wrapper{
+                height: 390px;
+            }
+            
+        }
+        &__wrapper{
+            height: 390px;
+        }
+        &__descr{
+            font-size: 40px;
+            &__sale{
+                font-size: 35px;
+                width: 50%;
+                left: 25%;
+            }
+            &__insta{
+                top: 50px;
+                margin-left: 70%;
+            }
+        }
+        
+        &__img__sale{
+            height: 300px;
+        }
+        &__social{
+            &__wrapper{
+                top: 70%;
+                left: 40%;
+            }
+            &__item{
+                margin: 0 10px;
+            }
+        }
+       
+
+    }
+    
+    .currency{
+        right: 1%;
+        &_770{
+            display: none;
+        }
+    }
+    .popular{
+        &__icon__item{
+            &__img{
+                width: 80px;
+            }
+        }
+    }
+    .footer{
+        &__logo{
+            display: block;
+            margin-left: -50px;
+        }
+    }
+    
+    .service{
+        &__img{
+            height: 350px;
+        }
+    }
+    .goods{
+        &__wrapper{
+            padding: 0 0 10px 0;
+            width: auto;
+            &__basket{
+                width: 320px;
+            }
+        }
+    }
+    .about{
+        &__title{
+            font-size: 50px;
+        }
+    }
+    .address{
+        &__city{
+            &__location{
+                &__map{
+                    width: 600px;
+                }
+            }
+        }
+    }
+    .airports{
+        &__item{
+            .airports__excess{
+                margin-left: 0;
+            }
+        }
+    }
+    .help{
+        &__faq{
+			&__subtitle{
+                font-size: 32px;
+			}
+			&__questions{
+				font-size: 20px;
+			}
+		}
+		&__subtitle{
+			font-size: 20px;
+		}
+		&__text{
+			font-size: 18px;
+		}
+	}
+	.question{
+		&__subtitle{
+			font-size: 28px;
+		}
+		&__item{
+			font-size: 20px;
+		}
+	}
+
+	
+
+}
+@media (max-width: 991px){
+    h1.menu__left{
+      font-size: 28px;
+    }
+    .second__menu{
+        height: 250px;
+        &__item{
+            vertical-align:middle;
+            &_call, &_blog{
+                display: none;
+            }
+        }
+    }
+    .slider{
+        &__wrapper{
+            height: 300px;
+        }
+        &__shop{
+            &__wrapper{
+                height: 300px;
+                img{
+                    width: 100%;
+                    
+                   
+                }
+                img.slider__img__insta{
+                    width: auto;
+                }
+                
+
+            }
+            &__descr{
+                top: 50%;
+                width: 70%;
+                font-size: 36px;
+            }
+            &__item{
+                .slick-dots{
+                    li{
+                        bottom:-10px;
+                        height: 10px;
+                        button{
+                            &::before{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        
+            
+            
+        }
+        &__descr{
+            font-size: 30px;
+            &__sale{
+                font-size: 25px;
+                left: 31%;
+            }
+        }
+        &__img__sale{
+            height: 70%;
+        }
+        &__social{
+            &__wrapper{
+                left: 35%;
+                bottom:20%;
+            }
+        }
+        &__arrow{
+            font-size: 50px;
+        }
+        
+    }
+    .about{
+        &__descr{
+            &__social{
+                &__round{
+                    height: 50px;
+                    width: 50px;
+                    span{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        &__subtitle{
+            font-size: 27px;
+            margin-top: 20px;
+        }
+        &__title{
+            font-size: 45px;
+        }
+    }
+    .currency{
+        display: none;
+        &_770{
+            position: relative;
+            display: block;
+            &__close{
+                position: absolute;
+                right: 20px;
+                font-size: 13px;
+                bottom:8px;
+                color: blue;
+                z-index: 3;
+                cursor: pointer;
+            }
+        }
+        
+    }
+    .gcw_infoFPpjZ7QyB{
+        display: none;
+    }
+    .reason{
+        &__item{
+            &__round{
+                width: 80px;
+                height: 80px;
+                div{
+                    font-size: 45px;
+                }
+                .icon-credit-card-alt{
+                    font-size: 40px;
+                }
+            }
+            &__descr{
+                margin-top: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+    .footer{
+        &__logo{
+            width: 200px;
+            margin-top: -10px;
+        }
+        &__social{
+            &__round{
+                margin-top: 20px;
+            }
+        }
+    }
+    .service{
+        &__img{
+            height: 270px;
+        }
+        &__subtitle{
+            margin-top: 0;
+            font-size: 25px;
+        }
+        &__descr{
+            width: 350px;
+            margin-top: 0;
+            span{
+                font-size: 28px;
+            }
+        }
+        &__btn{
+            margin: 0 auto;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        &__wrapper{
+            margin: 30px 0;
+        }
+    }
+    .goods{
+        &__wrapper{
+            width: 320px;
+        }
+
+    }
+    .address{
+        &__city{
+            &__location{
+                &__map{
+                    width: 435px;
+                }
+            }
+            &__details{
+                &__tel{
+                    padding-left: 0;
+                }
+            }
+        }
+        
+    }
+    .reviews{
+        &__slider{
+            button.slick-next{
+                right: 0;
+            }
+        }
+    }
+    .avia{
+        &__item{
+            &__descr{
+                img{
+                   width: 100%;
+                }
+            }
+        }
+	}
+	.help{
+		&__faq{
+			span{
+				top: 65%;
+			}
+		}
+		&__order_b{
+			order: 1;
+		}
+	}
+	.question{
+		&__subtitle{
+			font-size: 26px;
+		}
+		&__item{
+			margin-top: 5px;
+		}
+	}
+    
+
+ 
+}
+@media (max-width: 767px){
+    ul.menu{
+        &__right{
+            &__upper{
+                display: none;
+            }
+        }
+    }
+    h1.menu__left{
+        font-size: 25px;
+    }
+    .second__menu{
+        &__item{
+            width: 100px;
+            span{
+                font-size: 30px;
+            }
+            &_descr{
+                font-size: 15px;
+            }
+
+        }
+    }
+    .slider{
+        &__wrapper{
+            height: 225px;
+        }
+        &__descr{
+            font-size: 25px;
+            top: 50%;
+            &__sale{
+                top: 7%;
+                left: 21%;
+                font-size: 20px;
+            }
+            &__insta{
+                top: 7%;
+                left: 1%;
+                font-size: 20px;
+            }
+        }
+        &__item{
+            ul{
+                bottom: 10px;
+            }
+            .slick-dots{
+                li{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+        &__arrow{
+            font-size: 40px;
+        }
+        &__social{
+            &__item{
+                a{
+                    height: 40px;
+                    width: 40px;
+                    span{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        &__shop{
+            &__wrapper{
+                height: 225px;
+            }
+            &__descr{
+                font-size: 25px;
+                top: 50%;
+                a{
+                    span{
+                        font-size: 28px;
+                    }
+                }
+            }
+
+        }
+        &__news{
+            &__item{
+                height: 200px;
+            }
+            &__subtitle{
+                font-size: 15px;
+                line-height: 20px;
+            }
+            &__dark{
+                height: 50%;
+            }
+        }
+        
+    }
+    .popular{
+        &__icon{
+            &__item{
+                &__img{
+                    width: 70px;
+                }
+                &__descr{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .title{
+        &__reason,&__shop,&__address,&__reviews, &__info__news,&__check{
+            font-size: 30px;
+        }
+    }
+    h2.title{
+        font-size: 25px;
+    }
+    .footer{
+ 
+        &__logo{
+            margin-top: 20px;
+            margin-left: 0;
+        }
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+    .service{
+        &__img{
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        &__descr{
+            width: auto;
+        }
+        &__wrapper{
+            &__img_right{
+                order: -1;
+            }
+        }
+    }
+    .goods{
+        &__wrapper{
+            margin-left: 50%;
+            transform: translateX(-50%);
+            &__basket{
+                right: auto;
+            }
+        }
+        
+    }
+    .about{
+        &__paper__airline{
+            order: -1;
+            position: absolute;
+            margin-left: 55%;
+            top: 0;
+        }
+        &__subtitle{
+            margin-top: 25px;
+        }
+        &__descr{
+            &__social{
+                &__descr{
+                    display: none;
+                }
+                &__item{
+                    margin-top: 0;
+                }
+            }
+        }
+        &__quote{
+            margin: 20px;
+        }
+    }
+    .address{
+        &__city{
+            &__name{
+                font-size: 20px;
+            }
+            &__details{
+                &__tel{
+                    padding-left: 50px;
+                }
+            }
+            &__location{
+                font-size: 20px;
+                &__map{
+                    width: 480px;
+                }
+            }
+        }
+    }
+    .avia{
+        &__item{
+            &__descr{
+                img{
+                    display: block;
+                }
+            }
+        }
+	}
+	.help{
+		&__faq{
+			position: relative;
+			margin: 30px 0 0 0; 
+			&__subtitle{
+				font-size: 30px;
+			}
+			span{
+				right: 0;
+				top: 30%;
+			}
+		}
+		&__text{
+			width: 300px;
+		}
+	}
+	.media__center{
+		margin-left: 50%;
+		transform:translateX(-50%);
+	}
+	.question{
+		&__subtitle{
+			font-size: 20px;
+		}
+		&__item{
+			font-size: 18px;
+		}
+	}
+	.answer{
+		&__item{
+			font-size: 18px;
+		}
+	}
+    .login-box{
+        width: auto;
+    }
+
+}
+@media (max-width: 575px){
+    nav{
+        min-height: 37px;
+        height: 32px; 
+        .menu{
+            padding: 11px  5px;
+            &__right{
+                &__item{
+                    .burger{
+                        margin-top: 0;
+                        width: 23px;
+                        span{
+                            height: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    h1.menu__left{
+        font-size: 22px;
+        line-height: 15px;
+        margin-bottom: 0;
+    }
+    .second__menu{
+        position: fixed;
+        top: 0;
+        right: -600px;
+        height: 100%;
+        &__item{
+            display: inline-block;
+            margin-top: 12%;
+        }
+        &_active{
+            top: 0;
+            width: 85%;
+            height: 100vh;
+            right: 0;
+            display: block;
+
+        }
+    }
+    .slider{
+        padding-top: 35px;
+        &__wrapper{
+            &_1,&_2,&_3{
+                img{
+                    width: 530px;
+                    height: 225px;
+                    z-index: -3;
+                }
+            }
+        }
+        &__descr{
+            width: 80%;
+            text-align: center;
+            &__sale{
+                margin-top: 60px;
+                margin-left: 40%;
+            }
+            &__insta{
+                width: 60%;
+                font-size: 20px;
+                left: -1%;
+            }
+        }
+        &__img{
+            &__sale{
+                height: 50%;
+            }
+            &__insta{
+                margin-left: 1%;
+            }
+        }
+        &__social{
+            &__wrapper{
+                left: 50%;
+                transform: translate(-50%,0);
+                bottom:-3%;
+            }
+            &__item{
+                margin: 0 5px;
+            }
+        }
+        &__item{
+            .slick-dots{
+                li{
+                    bottom:-10px;
+                    width: 10px;
+                    height: 10px;
+                    button{
+                        &::before{
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        &__shop{
+            padding-top: 35px;
+            height: 255px;
+            &__wrapper{
+                img{
+                   height: 225px;
+                   width: auto;
+                }
+            }
+        }
+        &__news{
+            &__subtitle{
+                font-size: 13px;
+            }
+            &__item{
+                width: 140px;
+                margin: 0 10px;
+            }
+        }
+       
+       
+    }
+    
+    .slick{
+        &__prev{
+            right: 90%;
+        }
+        &__next{
+            left: 90%;
+        }
+    }
+    .popular{
+        &__icon{
+            &__item{
+                margin-right: 7px;
+                margin-left: 7px;
+            }
+        }
+    }
+    h2.title{
+        font-size: 22px;
+    }
+    .us{
+        &__info{
+            padding: 50px 0;
+            width: 260px;
+        }
+    }
+    .button{
+        &_consultation{
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .footer{
+        &__row{
+            margin-top: 20px;
+        }
+        &__subtitle{
+            margin-top: 15px;
+            width: 80%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: space-between;
+            font-size: 22px;
+            cursor: pointer;
+            span{
+                width: 22px;
+                height: 22px;
+                margin-top: 5px;
+                display: inline-block;  
+                font-size: 22px;
+            }
+        }
+        &__item{
+            font-size: 20px;
+            display: none;
+            margin-left: 15%;
+        }
+        &__border__bottom{
+            &::before{
+                content: "";
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 0;
+                height: 1px;
+                width: 80%;
+                border-bottom: 1px solid grey;
+            }
+        }
+        &__circle__down{
+            transition: 0.3s all;
+            &_rotated{
+                transform: rotate(180deg);
+            }
+        }
+        &__social__round{
+            margin-bottom: 10px;
+        }
+    }
+    .title{
+        &__shop,&__address, &__info__news,&__check{
+            font-size: 25px;
+        }
+    }
+    .service{
+        padding: 0;
+        &__subtitle{
+            font-size: 22px;
+        }
+        &__descr{
+            font-size: 19px;
+
+        }
+    }
+    .goods{
+        &__wrapper{
+            width: 300px;
+        }
+        &__modal{
+            font-size: 15px;
+        }
+    }
+    .about{
+        padding-top: 35px;
+        &__paper__airline{
+            display: none;
+        }
+        &__title{
+            font-size: 35px;
+        }
+        &__subtitle{
+            margin-top: 0;
+            font-size:22px ;
+        }
+        &__descr{
+            margin-top: 20px;
+            &__social{
+                &__round{
+                    width: 45px;
+                    height: 45px;
+                    span{
+                        font-size: 20px;
+                    }
+                }
+
+            }
+        }
+    }
+    .address{
+        &__city{
+            &__wrapper{
+                display: block;
+            }
+            &__name{
+                font-size: 12px;
+                display:inline-block;
+                width: 75px;
+                margin: 0;
+                padding:5px 3px ;
+                span{
+                    display: none;
+                }
+                &_active{
+                    width: 115px; 
+                    font-size: 20px;
+                }
+            }   
+            &__location{
+                margin-top: 20px;
+                &__map{
+                    width: auto;
+                }
+            }
+        }
+    }
+    .avia{
+        &__companies{
+            &__subtitle{
+                font-size: 20px;
+                span{
+                    font-size: 25px;
+                }
+            }
+        }
+        &__subtitle{
+            font-size: 20px;
+        }
+        &__item{
+            &__text{
+                font-size: 18px;
+            }
+            &__descr{
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+    
+    .airports{
+        &__subtitle{
+            font-size: 20px;
+            span{
+                font-size: 25px;
+            }
+        }
+        &__item{
+            font-size: 16px;
+            &__subtitle{
+                font-size: 20px;
+            }
+            
+        }
+
+        
+
+    }
+    
+
+    .embassies{
+        &__subtitle{
+            font-size: 19px;
+            span{
+                font-size: 25px;
+            }
+        }
+        &__item{
+            font-size: 16px;
+            &__subtitle{
+                font-size: 20px;
+            }
+        }
+	}
+	.help{
+		&__faq{
+            padding: 20px;
+			&__subtitle{
+                font-size: 24px;
+			}
+			span{
+				display: none;
+			}
+			&__questions{
+				width: 100%;
+			}
+			&__questions{
+				font-size: 16px;
+            }
+            &__answers{
+                width: 100%;
+                font-size: 16px;
+            }
+		}
+		&__descr{
+			padding:0 ;
+		}
+		&__subtitle{
+			text-align: center;
+        }
+        &__item{
+            padding-top: 35px;
+        }
+	
+    }
+    .reviews{
+        &__slider{
+            button.slick-next{
+                right: 15px;
+            }
+            button.slick-prev{
+                left: -10px;
+            }
+        }
+    }
+	.question{
+		&__subtitle{
+			font-size: 18px;
+		}
+		&__item{
+			font-size: 15px;
+		}
+	}
+	.answer{
+		&__item{
+			font-size: 15px;
+		}
+	}
+	.overlay{
+		&__question{
+			&__box{
+				padding: 10px;
+				width: 90%;
+                height: auto;
+                max-height: 90vh;
+			}
+		}
+	}
+	.modal{
+        padding: 10px;
+        width: 320px;
+		&__close{
+            top: -7px;
+			right: -8px;
+        }
+        &__subtitle{
+            font-size: 17px;
+        }
+    }
+    .feed-form{
+        width: 300px;
+    }
+    .info{
+        &__news{
+            padding-top: 35px;
+
+        }
+    }
+    .login-box{
+        form{
+            a{
+                font-size: 11px;
+            }
+        } 
+        h2{
+            font-size: 20px;
+        }
+    } 
+    .check{
+        &__border{
+            width: 80%;
+            min-height: auto;
+            max-height: 55px;
+        }
+    }
+
+    
+    
+}

@@ -1,0 +1,73 @@
+.embassies{
+    padding: 30px 0;
+    &__subtitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 22px;
+        width: 470px;
+        margin-top: 5px;
+        padding: 5px;
+        font-size: 25px;
+        color: #1e46b6;
+        text-align: center;
+        &__wrapper{
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+    &__arrow__down{
+        margin-top: 5px;
+        display: inline-block;
+        transition: 0.5s all;
+        font-size: 30px;
+        &_rotated{
+            transform: rotate(180deg);
+        }
+    }
+    &__wrapper{
+        padding:  0 10px;
+        border-bottom: 1px solid grey;
+    }
+    &__item{
+        margin-top: 10px;
+        font-size: 18px;
+        &::before{
+            content: "";
+            margin-right: -10px; 
+        }
+        &__subtitle{
+            font-size: 22px;
+            text-align: center;
+            position: relative;
+            z-index : 1;
+            &::before {
+                content : "";
+                position: absolute;
+                left    : 25%;
+                bottom  : 0;
+                height  : 1px;
+                width   : 50%;
+                border-bottom:2px solid grey;
+            }
+
+        }
+        .airports__excess{
+            display: block;
+            margin-left: 50%;
+        }
+        &__wrapper{
+            display: none;
+            padding: 20px 0;
+        }
+    }
+    &__part{
+        border: 1px solid grey;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        padding: 0 10px;
+        border-top:none;
+
+    }
+}

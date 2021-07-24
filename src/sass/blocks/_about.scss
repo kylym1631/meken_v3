@@ -1,0 +1,83 @@
+.about{
+    min-height: 500px;
+    background: linear-gradient(#8ca6db, #ebcef1);
+    min-height: 300px;
+    padding: 20px 0 20px 0;
+    position: relative;
+    padding-top: 50px;
+    &__title{
+        color: #fff;
+        font-size: 60px;
+    }
+    &__subtitle{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 30px;
+    }
+    &__airplane{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    &__descr{
+        color: #602670;
+        font-size: 20px;
+        &__us{
+            font-size: 25px;
+        }
+        &__link{
+            text-decoration: underline;
+            color: #602670;
+        }
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+        &__social__round{
+            width: 60px;
+            height: 60px;
+            background-color: #af5fc4;  
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            cursor: pointer;
+            &:hover{
+                background-color: #9f3fb8;
+                text-decoration: none;
+            }
+            span{
+                color: #fff;
+                font-size: 28px;
+                &:hover{
+                    text-decoration: none;
+                }
+               
+            }
+        }
+        &__social__item{
+            margin-top: 30px;
+
+        }
+        &__social__descr{
+            margin-top: 7px;
+            font-size: 18px;
+            color: #602670;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    &__quote{
+        color: #cc3ef0;
+        font-size: 20px;
+        margin: 70px auto;
+        text-align: end;
+    }
+
+}
+a.about__descr__social__item{
+    text-decoration:none;
+}

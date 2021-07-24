@@ -1,0 +1,115 @@
+@keyframes glowing {
+    0% { background-color: rgba(218, 170, 82, 0.831); box-shadow: 0 0 5px rgba(218, 170, 82, 0.831); }
+    50% { background-color: rgb(227, 188, 117); box-shadow: 0 0 20px rgb(227, 188, 117); }
+    100% { background-color: rgba(218, 170, 82, 0.831); box-shadow: 0 0 5px rgba(218, 170, 82, 0.831); }
+}
+.goods{
+    min-height: 500px;
+    padding: 30px 0;
+    background-color: rgb(252, 252, 242);
+    &__wrapper{
+        position: relative;
+        margin-top: 30px;
+        padding: 10px ;
+        border: 2px solid #008AFC;
+        width: 320px;
+        &__basket{
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color:rgb(252, 252, 242) ;
+            border: 2px solid #eb591b;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 13px;
+            z-index: 50;
+            &_back{
+                cursor: pointer;
+                text-decoration: underline;
+                font-weight: bold;
+                color:blue;
+            }
+            
+        }
+    }
+    &__img{
+        width: 220px;
+        margin: 0 auto;
+
+    }
+    &__slider{
+        margin-top: 25px;
+    }
+    &__descr{
+        color: #726277;
+        font-size: 24px;
+        text-align: center;
+    }
+    &__price{
+        margin-left: 20%;
+        color: #625368;
+        font-size: 35px;
+        span{
+            color: #484249;
+            font-size: 20px;
+            text-decoration: line-through;
+            text-decoration-color: red;
+            vertical-align: 15%;
+        }
+    }
+    &__btn__wrapper{
+        text-align: center;
+    }
+    &__text{
+        display: none;
+    }
+    &__basket{
+        &__item{
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+           
+        }
+        &__quantity{
+            position: absolute;
+            top: 5px;
+            font-size: 18px;
+        }
+        &__round{
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(218, 170, 82, 0.831);
+            color: #ffff;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1;
+
+            //
+            -webkit-border-radius: 60px;
+            border-radius: 60px;
+            border: none;
+            color: #eeeeee;
+            cursor: pointer;
+            display: inline-block;
+            font-family: sans-serif; 
+            font-size: 20px;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            animation: glowing 1300ms infinite;
+            
+            
+        }
+    }
+
+}

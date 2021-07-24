@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервисы и покупки</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header >
+        <nav id="nav">
+            <div class="menu">
+                <h1 class="menu__left"> <a href="index.html">Мекен Авиа</a></h1>
+                <div class="menu__right">
+                    <div class="menu__right__item">
+                        <ul class="menu__right__upper">
+                            <li class="menu__right__item__link"><a href="index.html">Главная</a></li>
+                            <li class="menu__right__item__link">
+                                <a  href="info.html#airports">Статус рейсов</a>
+                            </li>
+                            <li class="menu__right__item__link"><a  href="buy.html">Покупки</a></li>
+                            <li class="menu__right__item__link"><a  href="us.html#address">Адреса</a></li>
+                        </ul>
+
+                        <div class="burger">
+                            <span></span>
+                            <span class="faded"></span>
+                            <span></span>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </nav>
+        <div class="second__menu">
+            <div class="container">
+                <a href="http://avia.kyrgyzdar.ru/" class="second__menu__item">
+                    <span class="icon-ticket"></span>
+                    <h2 class="second__menu__item_descr">Купить билет</h2>
+                </a>
+        
+                <a href="https://telegra.ph/Perenapravlenie-08-24"class="second__menu__item">
+                    <span class="icon-newspaper"></span>
+                    <h2 class="second__menu__item_descr">Новости</h2>
+                </a>
+    
+                <a href="https://telegra.ph/Perenapravlenie-08-24"class="second__menu__item">
+                    <span class="icon-discout"></span>
+                    <h2 class="second__menu__item_descr">Акции и скидки</h2>
+                </a>
+        
+                <a href="https://telegra.ph/Perenapravlenie-08-24" class="second__menu__item second__menu__item_blog">
+                    <span class="icon-quill"></span>
+                    <h2 class="second__menu__item_descr">Блог</h2>
+                </a>
+                <a href="us.html" class="second__menu__item">
+                    <span class="icon-info"></span>
+                    <h2 class="second__menu__item_descr">О нас</h2>
+                </a>
+                
+        
+
+
+                <a href="us.html#address" class="second__menu__item">
+                    <span class="icon-compass2"></span>
+                    <h2 class="second__menu__item_descr">Адреса</h2>
+                </a>
+
+                <a id="index__menu_btn" href="#"class="second__menu__item second__menu__item_call">
+                    <span class="icon-bubbles4" ></span>
+                    <h2 class="second__menu__item_descr ">Обратный звонок</h2>
+                </a>
+
+                
+                <a href="buy.html"  class="second__menu__item">
+                    <span class="icon-cart"></span>
+                    <h2 class="second__menu__item_descr">Покупки для путешествия</h2>
+                </a>
+            
+                <a href="info.html#embassies"  class="second__menu__item">
+                    <span class="icon-flag" ></span>
+                    <h2 class="second__menu__item_descr">Посольства</h2>
+                </a>
+
+                <a  href="info.html#avia"class="second__menu__item">
+                    <span class="icon-airplane"></span>
+                    <h2 class="second__menu__item_descr">Аэропорты и Авиакомпании</h2>
+                </a>
+         </div>
+        </div>
+    </header>
+    
+    <section class="slider__shop">
+        <div class="slider__shop__item">
+            <div class="slider__shop__wrapper">
+                <img src="img/shop_slider_baggage.jpg" alt="">
+                <div class="slider__shop__descr"><a href="#baggage">Добавьте дополнительный багаж <span class="slider__shop__descr__price">от 2490₽</span></a></div>
+            </div>
+            <div class="slider__shop__wrapper">
+                <img src="img/shop_slider_food.jpg" alt="">
+                <div class="slider__shop__descr"><a href="#food">Дополнительное питание <span class="slider__shop__descr__price"><br> от 290₽</span></a></div>
+            </div>
+            <div class="slider__shop__wrapper">
+                <img src="img/shop_slider_seat.jpg" alt="">
+                <div class="slider__shop__descr"><a href="#seat">Выбрать место<span class="slider__shop__descr__price"><br> от 140₽</span></a></div>
+            </div>
+            <div class="slider__shop__wrapper">
+                <div class="slider__wrapper slider__wrapper_4">
+                    <img class="slider__img slider__img__insta" src="img/offer_instagram.png" alt="instagram">
+                    <div class="slider__descr slider__descr__insta"><a href="https://www.instagram.com/meken_avia_">Подпишитесь на нас в инстаграм чтобы не упустить специальные предложения</a></div>
+                    <div class="about__descr__wrapper slider__social__wrapper">
+                        <div class="about__descr__social__item slider__social__item">
+                            <a href="https://api.whatsapp.com/send?phone=79268453222"  class="about__descr__social__round">
+                            <span class="icon-whatsapp"></span></a>
+                        </div>
+                        <div class="about__descr__social__item slider__social__item">
+                            <a href="https://www.instagram.com/meken_avia_"  class="about__descr__social__round">
+                            <span class="icon-instagram"></span></a>
+                        </div>
+                        <div  class="about__descr__social__item slider__social__item">
+                            <a href="https://mobile.ok.ru/profile/575859186582"  class="about__descr__social__round">
+                            <span class="icon-odnoklassniki"></span></a>
+                        </div>
+                        <div class="about__descr__social__item slider__social__item">
+                            <a href="https://t.me/meken_avia"  class="about__descr__social__round">
+                            <span class="icon-paper-plane"></span></a>
+                        </div>
+                        <div class="about__descr__social__item slider__social__item">
+                            <a href="https://www.facebook.com/people/Мекен-Авиа/100027435827969" class="about__descr__social__round">
+                            <span class="icon-facebook"></span></a>
+                        </div>
+                        <div class="about__descr__social__item slider__social__item">
+                            <a  href="https://www.youtube.com/channel/UCTrFk3PcNtGEXWbA-F_OyOg" class="about__descr__social__round">
+                            <span class="icon-youtube"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="service">
+        <div class="container">
+            <div class="title title__shop">Услуги</div>
+            <div id="baggage" class="row service__wrapper">
+                <div class="col-md-6">
+                    <img class="service__img" src="img/service_baggage.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div  class="service__subtitle ">Добавить дополнительный багаж</div>
+                    <div class="service__descr">Настройте багаж каждого пассажира даже после покупки билета без лишних хлопот и ожиданий, сэкономив своего времени и    деньги!<br><span>от 2500 ₽</span></div>
+                    <button class="button service__btn">Добавить услугу</button>
+                </div>
+            </div>
+            <hr class="service__hr">
+            <div id="food" class="row service__wrapper">
+                <div class="col-md-6">
+                    <div class="service__subtitle">Добавить питание</div>
+                    <div class="service__descr">Обед или ужин на высоте — это всегда так ожидаемо и приятно. После пути в аэропорт, регистрации и посадки так здорово поудобнее устроиться в кресле, накинуть плед и попробовать то самое блюдо, которые вы хотели.<br> <span>от 300 ₽</span></div>
+                    <button class="button service__btn">Добавить услугу</button>
+                </div>
+                <div class="col-md-6 service__wrapper__img_right">
+                    <img class="service__img" src="img/service_food.jpg" alt="">
+                </div>
+            </div>
+            <hr class="service__hr">
+            <div id="seat" class="row service__wrapper">
+                <div class="col-md-6">
+                    <img class="service__img" src="img/service_seat.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="service__subtitle">Выбрать место</div>
+                    <div class="service__descr">Расположиться возле окна и наблюдать за проплывающими живописными ландшафтами, выбрать место с большим расстоянием между рядами для длительного полета или сидеть рядом со всей семьей и обсуждать предстоящее путешествие.
+                        <br><span>от 250 ₽</span>
+                    </div>
+                    <button class="button service__btn">Добавить услугу</button>
+                </div>
+            </div>
+            <hr class="service__hr">
+            <div class="row service__wrapper">
+                <div class="col-md-6">
+                    <div class="service__subtitle">Купить билет на аэроэкспресс</div>
+                    <div class="service__descr">Билеты на комфортабельные электропоезда «Аэроэкспресс» Вы можете приобрести, не выходя из дома. Покупка электронного билета через сайт существенно экономит Ваше время и средства - купить его можно заранее и без комиссии. <br><span> от 250₽</span></div>
+                    <button class="button service__btn">Купить билет</button>
+                </div>
+                <div class="col-md-6 service__wrapper__img_right">
+                    <img class="service__img" src="img/service_aeroexpress.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr class="service__hr">
+    </section>
+
+    <section id="goods" class="goods">
+        <div class="container">
+            <h2 class="title title__shop">Товары</h2>
+            
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_b_cover_1.webp" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_b_cover_2.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_b_cover_3.jpg" alt="" class="goods__img">
+                        </div>                       
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_b_cover_4.jpg" alt="" class="goods__img">
+                        </div>
+                    </div>
+                    <div class="goods__descr">Чехлы для чемодана</div>
+                    <div class="goods__price"><span>1900₽</span>1530₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                        <button class=" button button__mini button__mini__basket" onclick="cart.addToCart(1, {title: 'Чехлы для чемодана', price: 1530, image: 'img/shop/shop_b_cover_1.webp'})">
+                            <span class="icon-cart"></span>
+                        </button>
+                    </div>
+                    <div class="goods__text">
+                        Описание: Молодежные чехлы, который станет отличным спутником во время очередной загородной поездки. Его внешний вид способен освежить любой чемодан, сделав его по настоящему модным и молодежным. <br>
+                        Чехол для чемодана размера S, L. <br>
+                        Преимущество <br>
+                        •Вместо пленки в аэропорту; <br>
+                        •Позволит быстро опознать свой багаж; <br>
+                        •Прорезь для ручки без молнии; <br>
+                        •Защита чемодана от пыли и грязи; <br>
+                        •Защита от мелких механических повреждений; <br>
+                        •Препятствует вскрытию багажа; <br>
+                        •Легко стирается, сохраняет свой вид. <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_pillow_1.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_pillow_2.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_pillow_3.jpg" alt="" class="goods__img">
+                        </div>                       
+                    </div>
+                    <div class="goods__descr">Надувная подушка</div>
+                    <div class="goods__price"><span>580₽</span>470₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                        <button class=" button button__mini button__mini__basket" onclick="cart.addToCart(2, {title: 'Надувная подушка', price: 470, image: 'img/shop/shop_pillow_1.jpg'})">
+                            <span class="icon-cart"></span>
+                        </button>
+                        
+                    </div>
+                    <div class="goods__text">
+                        Стильная надувная подушка-воротник для шеи. Компактная и легкая, с приятной на ощупь бархатистой поверхностью. С ней комфортнее в долгом полете. Положите под голову в самолете. Благодаря удобной форме вы не почувствуете болей в шее и других неприятных последствий сна в пассажирском кресле. Не занимает много места в багаже и легко чистится. <br>
+                        Вес: 100 г
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_baggage_1.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_baggage_2.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_baggage_3.jpg" alt="" class="goods__img">
+                        </div>                       
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_baggage_4.jpg" alt="" class="goods__img">
+                        </div>
+                    </div>
+                    <div class="goods__descr">Чемоданы</div>
+                    <div class="goods__price"><span>3070₽</span>2290₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                        <button class=" button button__mini button__mini__basket" onclick="cart.addToCart(3, {title: 'Чемоданы', price: 2290, image: 'img/shop/shop_baggage_1.jpg'})">
+                            <span class="icon-cart"></span>
+                        </button>
+                    </div>
+                    <div class="goods__text">
+                        Изготовлен из высокопрочного пластика ABS. Четыре прочных полиуретановых колеса позволяют легко перемещать чемодан. Имеет телескопическую ручку с фиксатором, эластичная прорезиненная ручка и кодовый замок. Особенности модели: съемные колеса, отделение с эластичными ремнями, предохраняющими одежду от перемещения; отделение на молнии; карман на молнии. <br>
+                        РАЗМЕРЫ - с учетом колес и всей внешней фурнитуры : 18 - 21*37*54 см. 22 - 25*42*63 см. 26 - 31*47*72 см.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_mug_1.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_mug_2.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_mug_3.jpg" alt="" class="goods__img">
+                        </div>                       
+                    </div>
+                    <div class="goods__descr">Термокружка</div>
+                    <div class="goods__price"><span>350₽</span>260₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                        <button class=" button button__mini button__mini__basket" onclick="cart.addToCart(4, {title: 'Термокружка', price: 260, image: 'img/shop/shop_mug_1.jpg'})">
+                            <span class="icon-cart"></span>
+                        </button>
+                    </div>
+                    <div class="goods__text">
+                        Классическая термокружка с корпусом из нержавеющей стали. Удобная форма и объем кружки подойдет путешественникам, автолюбителям и просто активным городским жителям. <br>
+                        Тип: термокружка <br>
+                        Материал: пластик, нержавеющая сталь <br>
+                        Объём термокружки: 0,45 л. <br>
+                        Размер – 18*8 см <br>
+                        Цвет: серый, Чёрный / серый, синий
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_umbrella_1.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_umbrella_2.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_umbrella_3.webp" alt="" class="goods__img">
+                        </div>                       
+                    </div>
+                    <div class="goods__descr">Зонтик</div>
+                    <div class="goods__price"><span>580₽</span>470₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                    </div>
+                    <div class="goods__text">
+                        Зонт это не только «крыша» над головой, но и определённый образ, стиль человека. Данный вид зонта может быть подарен как мужчине, так и женщине. Применяемые в производстве материалы призваны прослужить хозяину многие годы. Не смотря на то, что это относительно не дорогой подарок, он весьма основательный. Так же зонт может стать интересным дополнением к основному подарку.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_headphone_1.webp" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_headphone_2.webp" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_headphone_3.webp" alt="" class="goods__img">
+                        </div>                       
+                    </div>
+                    <div class="goods__descr">Чехлы для чемодана</div>
+                    <div class="goods__price"><span>1900₽</span>1530₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                    </div>
+                    <div class="goods__text">
+                        Описание: Молодежные чехлы, который станет отличным спутником во время очередной загородной поездки. Его внешний вид способен освежить любой чемодан, сделав его по настоящему модным и молодежным. <br>
+                        Чехол для чемодана размера S, L. <br>
+                        Преимущество <br>
+                        •Вместо пленки в аэропорту; <br>
+                        •Позволит быстро опознать свой багаж; <br>
+                        •Прорезь для ручки без молнии; <br>
+                        •Защита чемодана от пыли и грязи; <br>
+                        •Защита от мелких механических повреждений; <br>
+                        •Препятствует вскрытию багажа; <br>
+                        •Легко стирается, сохраняет свой вид. <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_diary_1.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_diary_2.webp" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_diary_3.webp" alt="" class="goods__img">
+                        </div>                       
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_diary_4.webp" alt="" class="goods__img">
+                        </div>
+                    </div>
+                    <div class="goods__descr">Ежедневник</div>
+                    <div class="goods__price"><span>390₽</span>250₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                    </div>
+                    <div class="goods__text">
+                        Карманный ежедневник представлен в современном формате А6 – деловой аксессуар для тех, кто выбирает компактность, легкость и при этом функциональность. Обложка из мягкой эко-кожи в классическом цвете бордо. Закладка-ляссе в цвет обложки. Внутренний блок из нетонированной бумаги с разлиновкой. <br>
+                        Формат/размеры: 105х145 мм, А6 <br>
+                        Внутренний блок: бумага нетонированная, разметка в линейку, 400 страниц
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_cabel_1.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_cabel_2.webp" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_cabel_3.webp" alt="" class="goods__img">
+                        </div>                       
+                    </div>
+                    <div class="goods__descr">Магнитный кабель</div>
+                    <div class="goods__price"><span>610₽</span>570₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                    </div>
+                    <div class="goods__text">
+                        Магнитный кабель подходит для синхронизации современных планшетов, смартфонов и других устройств с компьютером, а также для подзарядки их аккумуляторов. Поддержка стандарта USB 3.0 позволяет достичь скорости передачи данных в 5 Гб/с, а наличие экранирования не допускает её падения под воздействием электромагнитных помех. Нейлоновая оплётка защищает кабель от разрыва и спутывания, а никелированное покрытие штекеров делает их устойчивыми к коррозии. <br>
+                        Типы штекеров: lightning, type-c, micro USB type B
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="goods__wrapper">
+                    <div class="goods__slider">
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_bear_1.webp" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_bear_2.jpg" alt="" class="goods__img">
+                        </div>
+                        <div class="goods__slider__item">
+                            <img src="img/shop/shop_bear_3.jpg" alt="" class="goods__img">
+                        </div>                       
+                    </div>
+                    <div class="goods__descr">Мягкая игрушка</div>
+                    <div class="goods__price"><span>490₽</span>350₽</div>
+                    <div class="goods__btn__wrapper">
+                        <button class=" button button__goods__mini">
+                            <span class="icon-info"></span>
+                        </button>
+                        <button class="button goods__btn">Купить</button>
+                    </div>
+                    <div class="goods__text">
+                        Кремовый мишка – милый мягкий талисман с любопытной мордашкой. Компактный и неприхотливый путешественник. Легко помещается в рюкзачке, но предпочитает сидеть на ручках. Любит и умеет слушать. Охотно станет подарком.
+                        <br>
+                        Высота: 17см
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="goods__wrapper goods__wrapper__basket">
+        Корзина на сумму: <br><span id="totalPrice">0</span> руб <br>Тип товаров: (<span id="cartCount">0</span>) <br>
+        <div id="cartPreview" class="pb-5"></div>
+        <button class="button button__goods__basket__clear" onclick="cart.clearCart();">Очистить</button>
+        <button class="button button__goods__basket" >Купить</button>   
+        <div class="goods__wrapper__basket_back">Скрыть</div>
+    </div>
+    <div class="goods__basket__round"><div class="icon-cart"><span class="goods__basket__quantity"></span></div></div>
+
+    <footer class="footer">
+        <div class="container">
+         <button data-modal="consultation" class="button button_consultation">Заказать звонок</button>
+         <div class="row footer__row ">
+             <div class="col-md-3 col-sm-6 footer__border__bottom">
+                 <div class="footer__subtitle">Сервисы и услуги <span class="footer__circle__down icon-circle-down"></span> </div>
+                 <ul class="footer__item">
+                     <li class="footer__item__descr"><a href="http://avia.kyrgyzdar.ru/">Купить авиабилеты</a></li>
+                     <li class="footer__item__descr"><a href="buy.html#goods">Товары для путешествия</a></li>
+                     <li class="footer__item__descr"><a href=#index__services_add id="index__services_add" >Добавить услуги</a></li>
+                     <li class="footer__item__descr"><a href="#check__order" id="check__order" >Проверка заказа</a></li>
+                     <li class="footer__item__descr"><a href="https://telegra.ph/Perenapravlenie-08-24">Акции и скидки</a></li>
+                     <li class="footer__item__descr"><a href="#">Бонусы и сертификаты</a></li>
+                 </ul>
+             </div>
+ 
+             <div class="col-md-3 col-sm-6 footer__border__bottom">
+                 <div class="footer__subtitle">Информация<span class=" footer__circle__down icon-circle-down"></span></div>
+                 <ul class="footer__item">
+                     <li class="footer__item__descr"><a href="https://telegra.ph/Perenapravlenie-08-24">Новости</a></li>
+                     <li class="footer__item__descr"><a  href="info.html#airports">Аэропорты</a></li>
+                     <li class="footer__item__descr"><a  href="info.html#avia">Авиакомпании</a></li>
+                     <li class="footer__item__descr"><a   href="info.html#embassies">Посольство</a> </li>
+                     <li class="footer__item__descr"><a  href="help.html">Частые вопросы</a></li>
+                 </ul>
+             </div>
+             <div class="col-md-3 col-sm-5 footer__border__bottom">
+                 <div class="footer__subtitle">О компании<span class="icon-circle-down footer__circle__down"></span></div>
+                 <ul class="footer__item">
+                     <li class="footer__item__descr"><a  href="us.html">О нас</a></li>
+                     <li class="footer__item__descr"><a  href="us.html#address">Контакты</a></li>
+                     <li class="footer__item__descr"><a  href="us.html#address">Адреса</a></li>
+                     <li class="footer__item__descr"><a  href="https://telegra.ph/Perenapravlenie-08-24">Блог</a></li>
+                     <li class="footer__item__descr"><a  href="us.html#reviews">Отзывы</a></li>
+                 </ul>
+             </div>
+             <div class="col-md-3 col-sm-7 ">
+                 <div class="footer__wrapper">
+                     <img src="img/logo.png" alt="logo" class="footer__logo">
+                     <div class="footer__slogan"><i>Низкие цены, <br> высокий сервис!</i></div>
+                     <div class="footer__social">
+                         <a href="https://api.whatsapp.com/send?phone=79268453222"  ><div class="footer__social__round">
+                             <div class="icon-whatsapp"></div>
+                         </div></a>
+                         <a  href="https://www.instagram.com/meken_avia_">
+                             <div class="footer__social__round">
+                                 <div class="icon-instagram"></div>
+                             </div>
+                         </a>
+                         <a href="https://mobile.ok.ru/profile/575859186582">
+                             <div class="footer__social__round">
+                                 <div class="icon-odnoklassniki"></div>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+     </footer>
+
+    <div class="overlay">
+        <div class="overlay__bg">
+        </div>
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="email" placeholder="Сообщение"> 
+
+                <button class="button button_submit">заказать консультацию</button>
+            </form>
+        </div>
+
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Ваш заказ:</div>
+            <div class="modal__descr">Наушники</div>
+            <form id="consultation-form" class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="email"  placeholder="Сообщение"> 
+
+                <button class="button button_submit">купить</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами 
+                в ближайшее время!</div>
+        </div>
+       
+    </div>
+    <div class="overlay__question">
+        <div class="overlay__bg">
+        </div>
+        <div class="overlay__question__box">
+            <div class="modal__close">&times;</div>
+            <div class="question__subtitle">pogran</div>
+            <div class="modal__close">&times;</div>
+            <div class="goods__modal">...</div>
+            <button class="button modal__btn">Купить</button>
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script> 
+    <script src="js/angry-cart.min.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

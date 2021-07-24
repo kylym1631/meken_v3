@@ -1,0 +1,37 @@
+.title{
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 3px 10px black; 
+    &__reason{
+        text-align: center;
+        font-size: 35px;
+    }
+    &__address,&__reviews{
+        color: #602670;
+        text-shadow: none; 
+        font-weight: bold;
+        font-size: 38px;
+        text-align: center;
+    }
+    &__reviews{
+        font-size: 33px;
+    }
+    &__shop{
+    font-size: 35px;
+    color: #726277;
+    text-shadow: none;
+    font-weight: bold;
+    }
+    &__info__news{
+        color: rgb(9, 124, 177);
+        text-shadow: none;
+        font-weight: bold;
+    }
+    &__check{
+        color: #0bcdd8;
+        text-shadow: none;
+        font-size: 35px;
+        font-weight: bold;
+        padding: 10px;
+    }
+}
